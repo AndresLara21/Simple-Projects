@@ -4,7 +4,6 @@ import java.util.Random;
 public class TicTacToe {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter 3 for a 3x3 or 6 for a 6x6");
         String[][] gameBoard = {{"1", "|", "2", "|", "3"},
                 {"—", "+", "—", "+", "—"},
                 {"4", "|", "5", "|", "6"},
